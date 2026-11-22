@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official Privacy Policy & Data Deletion Policy for Zatros Pro (com.aistudio.rewardbox.qzvkpm)" />
+  <title>Privacy Policy — Zatros Pro | سياسة الخصوصية</title>
+  <style>
+    :root {
+      --bg-main: #07100c;
+      --bg-card: #0e1c15;
+      --bg-card-soft: #13261d;
+      --border-color: #214432;
+      --emerald: #22c55e;
+      --emerald-soft: rgba(34, 197, 94, 0.14);
+      --gold: #f5b400;
+      --gold-soft: rgba(245, 180, 0, 0.14);
+      --danger: #f87171;
+      --danger-soft: rgba(248, 113, 113, 0.12);
+      --text-main: #ecfdf5;
+      --text-muted: #a7c7b7;
+      --text-dim: #799e8b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Tahoma, Arial, sans-serif;
+      background: radial-gradient(circle at top center, #0f291c 0%, var(--bg-main) 55%);
+      color: var(--text-main);
+      line-height: 1.75;
+    }
+
+    a {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Sticky Top Navigation */
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(7, 16, 12, 0.9);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .topbar-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 12px 18px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-badge {
+      width: 38px;
+      height: 38px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #16a34a, #0f5132);
+      border: 1.5px solid var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 19px;
+      font-weight: 800;
+      color: #ffffff;
+      flex-shrink: 0;
+    }
+
+    .brand-title {
+      font-size: 17px;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.2;
+    }
+
+    .brand-sub {
+      font-size: 11.5px;
+      color: var(--text-muted);
+      font-family: monospace;
+    }
+
+    .lang-controls {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .lang-btn {
+      background: var(--bg-card-soft);
+      color: var(--text-muted);
+      border: 1px solid var(--border-color);
+      padding: 7px 13px;
+      border-radius: 999px;
+      font-size: 12.5px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .lang-btn:hover {
+      border-color: var(--emerald);
+      color: #ffffff;
+    }
+
+    .lang-btn.active {
+      background: var(--emerald);
+      color: #052010;
+      border-color: var(--emerald);
+    }
+
+    /* Container */
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px 56px;
+    }
+
+    /* Hero Summary Card */
+    .hero {
+      background: linear-gradient(145deg, #10251b 0%, #0b1711 100%);
+      border: 1px solid var(--border-color);
+      border-top: 3px solid var(--gold);
+      border-radius: 20px;
+      padding: 24px 20px;
+      margin-bottom: 24px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 14px;
+    }
+
+    .hero h1 {
+      margin: 0 0 6px;
+      font-size: 24px;
+      font-weight: 800;
+      color: #ffffff;
+    }
+
+    .hero p {
+      margin: 0;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .meta-pill {
+      background: var(--bg-main);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 10px 12px;
+    }
+
+    .meta-label {
+      display: block;
+      font-size: 11px;
+      color: var(--text-dim);
+      margin-bottom: 2px;
+    }
+
+    .meta-value {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--gold);
+      word-break: break-all;
+    }
+
+    /* Policy Language Sections */
+    .policy-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 26px 22px;
+      margin-bottom: 24px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+    }
+
+    .policy-section.hidden {
+      display: none;
+    }
+
+    .section-banner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding-bottom: 14px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .section-banner h2 {
+      margin: 0;
+      font-size: 21px;
+      font-weight: 800;
+      color: var(--emerald);
+    }
+
+    .lang-tag {
+      background: var(--emerald-soft);
+      color: var(--emerald);
+      border: 1px solid rgba(34, 197, 94, 0.4);
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .block {
+      margin-bottom: 22px;
+    }
+
+    .block:last-child {
+      margin-bottom: 0;
+    }
+
+    .block h3 {
+      margin: 0 0 10px;
+      font-size: 16.5px;
+      font-weight: 700;
+      color: var(--gold);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .block p {
+      margin: 0 0 10px;
+      font-size: 14.5px;
+      color: var(--text-muted);
+    }
+
+    .block ul {
+      margin: 8px 0 0;
+      padding-inline-start: 20px;
+      color: var(--text-muted);
+      font-size: 14.5px;
+    }
+
+    .block li {
+      margin-bottom: 8px;
+    }
+
+    .block li strong {
+      color: #ffffff;
+    }
+
+    /* Cards / Highlight Boxes */
+    .callout {
+      background: var(--bg-card-soft);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 14px 16px;
+      margin-top: 10px;
+    }
+
+    .callout.gold {
+      background: var(--gold-soft);
+      border-color: rgba(245, 180, 0, 0.4);
+    }
+
+    .callout.danger {
+      background: var(--danger-soft);
+      border-color: rgba(248, 113, 113, 0.4);
+    }
+
+    .callout-title {
+      font-weight: 800;
+      font-size: 14px;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+
+    .sdk-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .sdk-card {
+      background: var(--bg-main);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 14px;
+    }
+
+    .sdk-card h4 {
+      margin: 0 0 6px;
+      font-size: 14.5px;
+      color: var(--emerald);
+    }
+
+    .sdk-card p {
+      margin: 0 0 8px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .sdk-card a {
+      font-size: 12.5px;
+      font-weight: 700;
+    }
+
+    .code-pill {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      padding: 1px 7px;
+      border-radius: 6px;
+      font-family: monospace;
+      font-size: 12.5px;
+      color: #93c5fd;
+      direction: ltr;
+    }
+
+    .cta-email {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 8px;
+      background: var(--gold);
+      color: #07100c !important;
+      font-weight: 800;
+      font-size: 14px;
+      padding: 10px 18px;
+      border-radius: 12px;
+      text-decoration: none !important;
+    }
+
+    .cta-email:hover {
+      opacity: 0.92;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--text-dim);
+      font-size: 12.5px;
+      padding-top: 8px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 20px;
+      }
+      .policy-section {
+        padding: 20px 15px;
+      }
+      .section-banner h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Sticky Header -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-badge">Z</div>
+        <div>
+          <div class="brand-title">Zatros Pro</div>
+          <div class="brand-sub">com.aistudio.rewardbox.qzvkpm</div>
+        </div>
+      </div>
+
+      <div class="lang-controls" role="group" aria-label="Language filter">
+        <button type="button" class="lang-btn active" id="btn-both" onclick="setLanguageView('both')">Both / الكل</button>
+        <button type="button" class="lang-btn" id="btn-en" onclick="setLanguageView('en')">English</button>
+        <button type="button" class="lang-btn" id="btn-ar" onclick="setLanguageView('ar')">العربية</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Summary Header -->
+    <section class="hero">
+      <div class="hero-top">
+        <div>
+          <h1>Privacy Policy — Zatros Pro | سياسة الخصوصية</h1>
+          <p>Transparent privacy &amp; data protection disclosures for our mobile gaming &amp; rewards application.</p>
+        </div>
+      </div>
+
+      <div class="meta-grid">
+        <div class="meta-pill">
+          <span class="meta-label">Application / التطبيق</span>
+          <span class="meta-value">Zatros Pro</span>
+        </div>
+        <div class="meta-pill">
+          <span class="meta-label">Package Name / معرّف الحزمة</span>
+          <span class="meta-value">com.aistudio.rewardbox.qzvkpm</span>
+        </div>
+        <div class="meta-pill">
+          <span class="meta-label">Effective Date / تاريخ السريان</span>
+          <span class="meta-value">November 22, 2026 | 22 نوفمبر 2026</span>
+        </div>
+        <div class="meta-pill">
+          <span class="meta-label">Official Support / البريد الرسمي</span>
+          <span class="meta-value"><a href="mailto:Zatrosp@gmail.com">Zatrosp@gmail.com</a></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         ENGLISH PRIVACY POLICY
+         ========================================================= -->
+    <section id="section-en" class="policy-section" dir="ltr" lang="en">
+      <div class="section-banner">
+        <h2>Privacy Policy (English)</h2>
+        <span class="lang-tag">Effective: November 22, 2026</span>
+      </div>
+
+      <div class="block">
+        <h3>1. Introduction</h3>
+        <p>
+          Welcome to <strong>Zatros Pro</strong> (package ID: <span class="code-pill">com.aistudio.rewardbox.qzvkpm</span>).
+          We respect your privacy and are committed to protecting the personal data you share when using our Android
+          application, games, voice rooms, community features, and rewards store. This Privacy Policy explains what
+          information we collect, how we use it, which permissions and third-party services we rely on, and how you
+          can delete your account and data at any time.
+        </p>
+      </div>
+
+      <div class="block">
+        <h3>2. Information We Collect</h3>
+        <ul>
+          <li>
+            <strong>Account &amp; Authentication Information:</strong> When you sign in using Google Sign-In, Email &amp;
+            Password, or Anonymous Guest login, we process your Firebase User ID (UID), email address, display name /
+            username, profile avatar selection, and authentication provider metadata.
+          </li>
+          <li>
+            <strong>Gameplay, Points &amp; Store Redemption Data:</strong> We store your points balance, chronological
+            points ledger (earned from rewarded ads, daily streaks, games, referrals, or admin adjustments), daily ad
+            counters, leaderboard rank, community donations, and store redemption orders (including any game player ID
+            or recipient account identifier you voluntarily submit so we can fulfill digital rewards).
+          </li>
+          <li>
+            <strong>Community &amp; Multiplayer Room Data:</strong> Messages sent in public chat, private direct chats,
+            order support chats, and active multiplayer game rooms (such as Dominoes, Rock-Paper-Scissors, Guess What I
+            Have, Mafia, and social party games) are synchronized through Cloud Firestore so players can interact in
+            real time. User-submitted safety blocks and abuse reports are also stored for moderation.
+          </li>
+          <li>
+            <strong>Device, Diagnostic &amp; Anti-Fraud Data:</strong> Basic technical metadata such as app version
+            code, network connectivity status, Firebase Analytics usage events, and Firebase App Check (reCAPTCHA)
+            integrity signals to prevent fraud, unauthorized modified versions, and points abuse.
+          </li>
+        </ul>
+      </div>
+
+      <div class="block">
+        <h3>3. App Permissions &amp; How They Are Used</h3>
+        <ul>
+          <li>
+            <strong>Microphone (<span class="code-pill">RECORD_AUDIO</span>), Audio Settings (<span class="code-pill">MODIFY_AUDIO_SETTINGS</span>) &amp; Bluetooth (<span class="code-pill">BLUETOOTH_CONNECT</span>):</strong>
+            Used strictly for optional real-time voice communication inside multiplayer game rooms (powered by Agora RTC)
+            and optional voice queries in the in-app FAQ helper.
+            <div class="callout gold">
+              <div class="callout-title">Strict No-Recording Guarantee for Voice Rooms</div>
+              Your microphone is <strong>muted by default</strong> whenever you enter a game room and is only activated
+              when you grant permission and manually press the microphone toggle button. Real-time voice audio in game
+              rooms is streamed live during gameplay only and is <strong>never recorded, saved, or stored</strong> on
+              our servers.
+            </div>
+          </li>
+          <li>
+            <strong>Advertising ID (<span class="code-pill">com.google.android.gms.permission.AD_ID</span>):</strong>
+            Used by Google AdMob and mediated advertising partners (such as Unity Ads) to deliver rewarded video ads,
+            prevent ad fraud, cap frequency, and personalize or measure ad performance in accordance with your device
+            privacy settings.
+          </li>
+          <li>
+            <strong>Internet &amp; Network Access (<span class="code-pill">INTERNET</span>, <span class="code-pill">ACCESS_NETWORK_STATE</span>, <span class="code-pill">ACCESS_WIFI_STATE</span>):</strong>
+            Required to authenticate users, sync points and orders securely with Cloud Firestore, verify active online
+            status before crediting ad rewards, and operate online multiplayer games.
+          </li>
+          <li>
+            <strong>Notifications &amp; Vibration (<span class="code-pill">POST_NOTIFICATIONS</span>, <span class="code-pill">VIBRATE</span>):</strong>
+            Used to deliver optional notifications (such as order review updates, daily reward alerts, and new store
+            items) and tactile gameplay feedback. You can manage or disable alerts inside Settings.
+          </li>
+        </ul>
+      </div>
+
+      <div class="block">
+        <h3>4. Third-Party Services</h3>
+        <p>Zatros Pro integrates the following trusted third-party SDKs and cloud infrastructure providers:</p>
+        <div class="sdk-grid">
+          <div class="sdk-card">
+            <h4>Firebase Authentication</h4>
+            <p>Manages secure Google Sign-In, Email/Password login, email verification links, password reset links, and guest sessions.</p>
+            <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase Privacy Policy &rarr;</a>
+          </div>
+          <div class="sdk-card">
+            <h4>Cloud Firestore</h4>
+            <p>Stores encrypted-in-transit user profiles, points history ledger, orders, leaderboards, chats, and multiplayer room state.</p>
+            <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google Cloud &amp; Firebase Privacy &rarr;</a>
+          </div>
+          <div class="sdk-card">
+            <h4>Google AdMob (&amp; Unity Ads Mediation)</h4>
+            <p>Serves opt-in rewarded video ads. Points are credited only after verified completion of a real ad view.</p>
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Ads Privacy Policy &rarr;</a>
+          </div>
+          <div class="sdk-card">
+            <h4>Agora RTC Voice SDK</h4>
+            <p>Powers live low-latency voice chat inside online game rooms. Audio is transmitted in real time without server recording.</p>
+            <a href="https://www.agora.io/en/privacy-policy/" target="_blank" rel="noopener noreferrer">Agora Privacy Policy &rarr;</a>
+          </div>
+          <div class="sdk-card">
+            <h4>Firebase Analytics, App Check &amp; AI Logic</h4>
+            <p>Protects against tampered clients via reCAPTCHA, monitors stability, and powers optional voice FAQ transcription/TTS.</p>
+            <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google Uses Partner Data &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="block">
+        <h3>5. Data Retention, Security &amp; Children's Privacy</h3>
+        <ul>
+          <li>
+            <strong>Security:</strong> All communication between the app and Firebase / Agora / AdMob servers is encrypted
+            in transit via HTTPS/TLS. Server-side Firestore Security Rules enforce strict per-user access controls and
+            version validation.
+          </li>
+          <li>
+            <strong>Data Retention:</strong> We retain your account and points ledger while your account remains active
+            so you do not lose your earned points or redemption records across devices.
+          </li>
+          <li>
+            <strong>Children's Privacy:</strong> Zatros Pro is not directed to children under the age of 13 (or the
+            applicable minimum age in your jurisdiction). We do not knowingly collect personal information from
+            children under 13. If you believe a child has provided personal data, contact us immediately at
+            <a href="mailto:Zatrosp@gmail.com">Zatrosp@gmail.com</a> so we can remove it.
+          </li>
+        </ul>
+      </div>
+
+      <div class="block" id="delete-account-en">
+        <h3>6. Account &amp; Data Deletion</h3>
+        <div class="callout danger">
+          <div class="callout-title">How to Permanently Delete Your Account &amp; Data</div>
+          <p style="margin-bottom:8px;">You have full control over your account and personal information:</p>
+          <ul style="margin-top:0;">
+            <li>
+              <strong>Clear Local Device Data &amp; Sign Out:</strong> Inside the app, go to <strong>Profile &rarr; Log Out</strong>
+              to end your session, or uninstall the app / clear app storage in Android Settings to remove all local Room
+              database caches and preferences.
+            </li>
+            <li>
+              <strong>Request Permanent Cloud Account &amp; Data Deletion:</strong> To permanently delete your Firebase
+              Authentication account and all associated Cloud Firestore records (profile, points ledger, chat messages,
+              referrals, and order history), send an email from your registered email address (including your Display
+              Name or Account Numeric ID) to our official support team:
+            </li>
+          </ul>
+          <a class="cta-email" href="mailto:Zatrosp@gmail.com?subject=Account%20and%20Data%20Deletion%20Request%20-%20Zatros%20Pro">
+            Request Deletion: Zatrosp@gmail.com
+          </a>
+          <p style="margin-top:10px;margin-bottom:0;font-size:13px;">
+            Verified deletion requests are processed within <strong>7 business days</strong> (and no later than 30 days),
+            after which your authentication credentials and personal database records are permanently erased, except where
+            minimal records must be retained to comply with legal obligations or prevent severe abuse/fraud.
+          </p>
+        </div>
+      </div>
+
+      <div class="block">
+        <h3>7. Policy Updates &amp; Contact Us</h3>
+        <p>
+          We may update this Privacy Policy periodically to reflect app updates or legal requirements. Any changes will
+          be posted on this page with an updated effective date. If you have questions or privacy requests, contact us at:
+          <strong><a href="mailto:Zatrosp@gmail.com">Zatrosp@gmail.com</a></strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         ARABIC PRIVACY POLICY
+         ========================================================= -->
+    <section id="section-ar" class="policy-section" dir="rtl" lang="ar">
+      <div class="section-banner">
+        <h2>سياسة الخصوصية (العربية)</h2>
+        <span class="lang-tag">تاريخ السريان: 22 نوفمبر 2026</span>
+      </div>
+
+      <div class="block">
+        <h3>1. مقدمة</h3>
+        <p>
+          مرحباً بك في تطبيق <strong>Zatros Pro</strong> (معرّف الحزمة: <span class="code-pill">com.aistudio.rewardbox.qzvkpm</span>).
+          نحن نحترم خصوصيتك ونلتزم بحماية البيانات الشخصية التي تشاركها عند استخدام التطبيق والألعاب والغرف الصوتية والمحادثات ومتجر المكافآت.
+          توضح هذه السياسة نوع البيانات التي يتم جمعها، وكيفية استخدامها، والأذونات وخدمات الطرف الثالث المعتمدة في التطبيق، وطريقة حذف حسابك وبياناتك نهائياً في أي وقت.
+        </p>
+      </div>
+
+      <div class="block">
+        <h3>2. البيانات التي نقوم بجمعها</h3>
+        <ul>
+          <li>
+            <strong>بيانات الحساب والمصادقة:</strong> عند تسجيل الدخول عبر حساب Google، أو البريد الإلكتروني وكلمة المرور،
+            أو الدخول كزائر، تتم معالجة المعرّف الفريد للحساب (UID)، والبريد الإلكتروني، واسم العرض / اسم المستخدم، والصورة الرمزية (الأفاتار) المختارة.
+          </li>
+          <li>
+            <strong>بيانات اللعب والنقاط وطلبات المتجر:</strong> نحفظ رصيد نقاطك وسجل حركات النقاط التفصيلي (الإعلانات، المكافأة اليومية،
+            فوز الألعاب، الإحالات، أو التعديلات الإدارية)، وعدد الإعلانات اليومية، والترتيب في لوحة الصدارة، والتبرعات المجتمعية،
+            وطلبات الاستبدال من المتجر (بما في ذلك بيانات الاستلام مثل معرّف اللاعب في اللعبة التي تُدخلها طوعاً لتنفيذ الطلب).
+          </li>
+          <li>
+            <strong>بيانات المجتمع والغرف الجماعية:</strong> الرسائل المرسلة في الدردشة العامة أو الخاصة أو محادثات الطلبات، وحالة
+            غرف الألعاب الأونلاين (مثل الدومينو، حجر ورقة مقص، خمن ما معي، المافيا وغيرها)، إضافةً إلى قوائم الحظر والبلاغات لحماية المستخدمين.
+          </li>
+          <li>
+            <strong>البيانات التقنية ومكافحة الغش:</strong> معلومات تقنية أساسية مثل رقم إصدار التطبيق، وحالة الاتصال بالإنترنت،
+            وإحصائيات الاستخدام الأساسية، وفحوصات الأمان (Firebase App Check / reCAPTCHA) لمنع التلاعب بالنقاط أو استخدام نسخ غير رسمية.
+          </li>
+        </ul>
+      </div>
+
+      <div class="block">
+        <h3>3. أذونات التطبيق وسبب طلبها</h3>
+        <ul>
+          <li>
+            <strong>الميكروفون (<span class="code-pill">RECORD_AUDIO</span>) وإعدادات الصوت (<span class="code-pill">MODIFY_AUDIO_SETTINGS</span>) والبلوتوث (<span class="code-pill">BLUETOOTH_CONNECT</span>):</strong>
+            تُستخدم حصراً للمحادثة الصوتية الفورية داخل غرف الألعاب الجماعية (عبر Agora RTC) أو عند إرسال استفسار صوتي اختياري داخل مساعد الأسئلة الذكي.
+            <div class="callout gold">
+              <div class="callout-title">تعهد صريح بعدم تسجيل أو تخزين الصوت</div>
+              يكون الميكروفون <strong>مكتوماً افتراضياً</strong> لحظة دخولك لأي غرفة لعب، ولا يعمل إلا بعد موافقتك على الإذن وضغطك يدوياً على زر فتح المايك.
+              يتم نقل الصوت بشكل فوري (بث حي) أثناء اللعب فقط <strong>ولا يتم تسجيله أو حفظه أو تخزينه إطلاقاً</strong> على خوادمنا.
+            </div>
+          </li>
+          <li>
+            <strong>معرّف الإعلانات (<span class="code-pill">com.google.android.gms.permission.AD_ID</span>):</strong>
+            يُستخدم بواسطة خدمة Google AdMob والشركاء المعتمدين (مثل Unity Ads) لعرض إعلانات المكافآت، ومنع الاحتيال الإعلاني، وتحديد سقف التكرار وفق إعدادات الخصوصية بجهازك.
+          </li>
+          <li>
+            <strong>الوصول للإنترنت وحالة الشبكة (<span class="code-pill">INTERNET</span>, <span class="code-pill">ACCESS_NETWORK_STATE</span>, <span class="code-pill">ACCESS_WIFI_STATE</span>):</strong>
+            ضروري لتسجيل الدخول، ومزامنة الرصيد والطلبات مع Cloud Firestore، والتحقق من الاتصال الفعلي قبل احتساب نقاط الإعلانات، وتشغيل الألعاب الأونلاين.
+          </li>
+          <li>
+            <strong>الإشعارات والاهتزاز (<span class="code-pill">POST_NOTIFICATIONS</span>, <span class="code-pill">VIBRATE</span>):</strong>
+            لإرسال تنبيهات اختيارية حول حالة الطلبات والمكافآت ومنتجات المتجر وتوفير اهتزاز تفاعلي داخل الألعاب، ويمكنك التحكم بها أو إيقافها من الإعدادات.
+          </li>
+        </ul>
+      </div>
+
+      <div class="block">
+        <h3>4. خدمات الطرف الثالث المستخدمة</h3>
+        <p>يعتمد تطبيق Zatros Pro على الخدمات الموثوقة التالية لتشغيل الميزات الأساسية:</p>
+        <div class="sdk-grid">
+          <div class="sdk-card">
+            <h4>Firebase Authentication</h4>
+            <p>لإدارة تسجيل الدخول الآمن بجوجل أو البريد الإلكتروني وإرسال روابط التحقق واستعادة كلمة المرور.</p>
+            <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">سياسة خصوصية Firebase &larr;</a>
+          </div>
+          <div class="sdk-card">
+            <h4>Cloud Firestore</h4>
+            <p>لتخزين ملفات المستخدمين، وسجل النقاط التفصيلي، والطلبات، والغرف الجماعية والدردشات بتشفير أثناء النقل وقواعد أمان صارمة.</p>
+            <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">سياسة خصوصية Google Cloud &larr;</a>
+          </div>
+          <div class="sdk-card">
+            <h4>Google AdMob (ووساطة Unity Ads)</h4>
+            <p>لعرض إعلانات الفيديو بمكافأة؛ ولا تُمنح أي نقاط إلا بعد التحقق الفعلي من إتمام مشاهدة الإعلان.</p>
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">سياسة خصوصية إعلانات Google &larr;</a>
+          </div>
+          <div class="sdk-card">
+            <h4>Agora RTC Voice SDK</h4>
+            <p>لتشغيل المحادثة الصوتية المباشرة داخل غرف الألعاب دون أي تسجيل أو أرشفة للمقاطع الصوتية.</p>
+            <a href="https://www.agora.io/en/privacy-policy/" target="_blank" rel="noopener noreferrer">سياسة خصوصية Agora &larr;</a>
+          </div>
+          <div class="sdk-card">
+            <h4>Firebase Analytics و App Check و AI Logic</h4>
+            <p>لحماية التطبيق من النسخ المعدّلة عبر reCAPTCHA، وتحسين الأداء، ومعالجة الأسئلة الصوتية الاختيارية للمساعد.</p>
+            <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">كيف تستخدم Google البيانات &larr;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="block">
+        <h3>5. أمان البيانات وحماية الأطفال</h3>
+        <ul>
+          <li>
+            <strong>الأمان والاحتفاظ بالبيانات:</strong> جميع الاتصالات مشفرة أثناء النقل عبر HTTPS/TLS، مع تطبيق قواعد أمان صارمة على مستوى الخادم
+            تضمن عدم وصول أي مستخدم لبيانات حساسة لا يملك صلاحيتها. نحتفظ ببياناتك طوال فترة نشاط حسابك لحفظ نقاطك وطلباتك.
+          </li>
+          <li>
+            <strong>خصوصية الأطفال:</strong> التطبيق غير موجّه للأطفال دون سن 13 عاماً (أو السن القانوني الأدنى في بلدك)، ولا نجمع بياناتهم عن قصد.
+            في حال ثبت تقديم طفل لبيانات شخصية، يُرجى مراسلتنا فوراً على <a href="mailto:Zatrosp@gmail.com">Zatrosp@gmail.com</a> لحذفها بالكامل.
+          </li>
+        </ul>
+      </div>
+
+      <div class="block" id="delete-account-ar">
+        <h3>6. طريقة حذف الحساب والبيانات نهائياً</h3>
+        <div class="callout danger">
+          <div class="callout-title">خياراتك الكاملة لمسح البيانات وإغلاق الحساب</div>
+          <p style="margin-bottom:8px;">يمكنك إزالة بياناتك المحلية أو طلب الحذف النهائي الكامل لحسابك السحابي بسهولة:</p>
+          <ul style="margin-top:0;">
+            <li>
+              <strong>مسح البيانات المحلية وتسجيل الخروج:</strong> من داخل التطبيق انتقل إلى <strong>ملفي &larr; تسجيل الخروج</strong>
+              لإنهاء الجلسة، ويمكنك حذف ذاكرة التطبيق أو إزالة تثبيته من إعدادات الأندرويد لمسح جميع البيانات المخزنة محلياً على جهازك فوراً.
+            </li>
+            <li>
+              <strong>طلب الحذف النهائي للحساب من السحابة (Firebase Auth و Firestore):</strong> لحذف حسابك وجميع بياناتك السحابية
+              نهائياً (الملف الشخصي، سجل النقاط، الرسائل، الإحالات، والطلبات)، أرسل رسالة من بريدك الإلكتروني المسجّل لدينا
+              (مع ذكر اسمك أو معرّف الحساب ID) إلى بريد الدعم الرسمي:
+            </li>
+          </ul>
+          <a class="cta-email" href="mailto:Zatrosp@gmail.com?subject=%D8%B7%D9%84%D8%A8%20%D8%AD%D8%B0%D9%81%20%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%20%D9%88%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA%20-%20Zatros%20Pro">
+            طلب حذف الحساب: Zatrosp@gmail.com
+          </a>
+          <p style="margin-top:10px;margin-bottom:0;font-size:13px;">
+            تتم مراجعة وتنفيذ طلبات الحذف المؤكدة خلال <strong>7 أيام عمل</strong> (وبحد أقصى 30 يوماً)، حيث تُمحى بيانات المصادقة والسجلات
+            الشخصية نهائياً، باستثناء الحالات التي يتطلب فيها القانون أو مكافحة الاحتيال والحظر الجسيم الاحتفاظ بالحد الأدنى من السجلات.
+          </p>
+        </div>
+      </div>
+
+      <div class="block">
+        <h3>7. التعديلات والتواصل معنا</h3>
+        <p>
+          قد نقوم بتحديث سياسة الخصوصية من وقت لآخر بما يتوافق مع تحديثات التطبيق أو المتطلبات القانونية، وسيتم نشر أي تعديل هنا مع تحديث تاريخ السريان.
+          لأي استفسار أو طلب متعلق بالخصوصية والدعم الفني، تواصل معنا عبر البريد الرسمي:
+          <strong><a href="mailto:Zatrosp@gmail.com">Zatrosp@gmail.com</a></strong>.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2026 Zatros Pro (com.aistudio.rewardbox.qzvkpm) — All Rights Reserved | جميع الحقوق محفوظة &bull;
+      Support: <a href="mailto:Zatrosp@gmail.com">Zatrosp@gmail.com</a>
+    </footer>
+  </main>
+
+  <script>
+    function setLanguageView(mode) {
+      var en = document.getElementById("section-en");
+      var ar = document.getElementById("section-ar");
+      var btnBoth = document.getElementById("btn-both");
+      var btnEn = document.getElementById("btn-en");
+      var btnAr = document.getElementById("btn-ar");
+
+      btnBoth.classList.remove("active");
+      btnEn.classList.remove("active");
+      btnAr.classList.remove("active");
+
+      if (mode === "en") {
+        en.classList.remove("hidden");
+        ar.classList.add("hidden");
+        btnEn.classList.add("active");
+      } else if (mode === "ar") {
+        en.classList.add("hidden");
+        ar.classList.remove("hidden");
+        btnAr.classList.add("active");
+      } else {
+        en.classList.remove("hidden");
+        ar.classList.remove("hidden");
+        btnBoth.classList.add("active");
+      }
+    }
+  </script>
+</body>
+  </html>
